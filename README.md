@@ -3,7 +3,20 @@
 ## Demo Video
 https://youtu.be/g1aqiQYCliQ
 
-## What I Learned
+### What I Learned
 
-How Azure streams real-time application logs into a Log Analytics Workspace for monitoring.
-How to use KQL queries to detect suspicious activity and trigger email alerts by Action Groups.
+- How Azure streams real-time application logs into a Log Analytics Workspace for monitoring.
+- How to use KQL queries to detect suspicious activity and trigger email alerts by Action Groups.
+
+### Challenges Faced
+
+- Azure validation errors when creating alert rules due to missing or strict threshold settings.
+- VS Code “Restricted Mode” blocks API requests until workspace trust is enabled. 
+
+# Real-World Improvements
+
+- Using structured logs (JSON) to make it easier to detect real attacks vs normal user mistakes.
+- Automating response actions (like blocking IPs using Logic Apps) instead of just sending email alerts.
+
+### KQL Query Explained
+  
