@@ -13,7 +13,7 @@ https://youtu.be/g1aqiQYCliQ
 - Azure validation errors when creating alert rules due to missing or strict threshold settings.
 - VS Code “Restricted Mode” blocks API requests until workspace trust is enabled. 
 
-# Real-World Improvements
+### Real-World Improvements
 
 - Using structured logs (JSON) to make it easier to detect real attacks vs normal user mistakes.
 - Automating response actions (like blocking IPs using Logic Apps) instead of just sending email alerts.
