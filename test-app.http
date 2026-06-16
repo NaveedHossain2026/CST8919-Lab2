@@ -1,0 +1,17 @@
+### Test Successful Login
+POST https://cst8919-lab2-h7ecbkcsdfg2dmg3.canadacentral-01.azurewebsites.net/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "SecurePass123"
+}
+
+### Test Failed Login
+POST https://cst8919-lab2-h7ecbkcsdfg2dmg3.canadacentral-01.azurewebsites.net/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "WrongPassword!"
+}
