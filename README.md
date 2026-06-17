@@ -28,5 +28,5 @@ AppServiceConsoleLogs
   
 - ``` |:``` Passes data to the next step.
 
-- ```ResultDescription has "FAILED_LOGIN": ``` logs to only show failed login attempts.
+- ```where ResultDescription has "FAILED_LOGIN": ``` logs to only show failed login attempts.
   
