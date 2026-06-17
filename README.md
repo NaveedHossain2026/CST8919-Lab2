@@ -19,4 +19,9 @@ https://youtu.be/g1aqiQYCliQ
 - Automating response actions (like blocking IPs using Logic Apps) instead of just sending email alerts.
 
 ### KQL Query Explained
+
+```txt
+AppServiceConsoleLogs
+| where ResultDescription has "FAILED_LOGIN"
+```
   
