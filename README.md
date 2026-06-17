@@ -24,9 +24,9 @@ https://youtu.be/g1aqiQYCliQ
 AppServiceConsoleLogs
 | where ResultDescription has "FAILED_LOGIN"
 ```
-- ```txt AppServiceConsoleLogs: ``` log data from the Azure App Service.
+- ```AppServiceConsoleLogs: ``` log data from the Azure App Service.
   
-- ``` txt |:``` Passes data to the next step.
+- ``` |:``` Passes data to the next step.
 
-- ```txt ResultDescription has "FAILED_LOGIN": ``` logs to only show failed login attempts.
+- ```ResultDescription has "FAILED_LOGIN": ``` logs to only show failed login attempts.
   
