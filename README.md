@@ -24,4 +24,7 @@ https://youtu.be/g1aqiQYCliQ
 AppServiceConsoleLogs
 | where ResultDescription has "FAILED_LOGIN"
 ```
+- AppServiceConsoleLogs: Gets log data from the Azure App Service.
+-|: Passes data to the next step.
+- where ResultDescription has "FAILED_LOGIN": Filters logs to only show failed login attempts.
   
