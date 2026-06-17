@@ -18,7 +18,7 @@ https://youtu.be/g1aqiQYCliQ
 - Using structured logs (JSON) to make it easier to detect real attacks vs normal user mistakes.
 - Automating response actions (like blocking IPs using Logic Apps) instead of just sending email alerts.
 
-### KQL Query Explained
+### KQL Query Explanation
 
 ```txt
 AppServiceConsoleLogs
